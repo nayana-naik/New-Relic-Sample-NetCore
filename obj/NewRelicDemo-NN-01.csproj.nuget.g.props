@@ -16,9 +16,9 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\LICENSE.txt" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\LICENSE.txt')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\LICENSE.txt" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\LICENSE.txt')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\LICENSE.txt</TargetPath>
@@ -26,9 +26,9 @@
       <Private>True</Private>
       <Link>newrelic\LICENSE.txt</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\NewRelic.Agent.Core.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\NewRelic.Agent.Core.dll')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\NewRelic.Agent.Core.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\NewRelic.Agent.Core.dll')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\NewRelic.Agent.Core.dll</TargetPath>
@@ -36,9 +36,9 @@
       <Private>True</Private>
       <Link>newrelic\NewRelic.Agent.Core.dll</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\NewRelic.Agent.Extensions.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\NewRelic.Agent.Extensions.dll')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\NewRelic.Agent.Extensions.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\NewRelic.Agent.Extensions.dll')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\NewRelic.Agent.Extensions.dll</TargetPath>
@@ -46,9 +46,9 @@
       <Private>True</Private>
       <Link>newrelic\NewRelic.Agent.Extensions.dll</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\NewRelic.Api.Agent.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\NewRelic.Api.Agent.dll')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\NewRelic.Api.Agent.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\NewRelic.Api.Agent.dll')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\NewRelic.Api.Agent.dll</TargetPath>
@@ -56,9 +56,9 @@
       <Private>True</Private>
       <Link>newrelic\NewRelic.Api.Agent.dll</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\NewRelic.Profiler.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\NewRelic.Profiler.dll')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\NewRelic.Profiler.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\NewRelic.Profiler.dll')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\NewRelic.Profiler.dll</TargetPath>
@@ -66,9 +66,9 @@
       <Private>True</Private>
       <Link>newrelic\NewRelic.Profiler.dll</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\README.md" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\README.md')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\README.md" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\README.md')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\README.md</TargetPath>
@@ -76,9 +76,9 @@
       <Private>True</Private>
       <Link>newrelic\README.md</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\THIRD_PARTY_NOTICES.txt" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\THIRD_PARTY_NOTICES.txt')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\THIRD_PARTY_NOTICES.txt" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\THIRD_PARTY_NOTICES.txt')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\THIRD_PARTY_NOTICES.txt</TargetPath>
@@ -86,9 +86,9 @@
       <Private>True</Private>
       <Link>newrelic\THIRD_PARTY_NOTICES.txt</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\agentinfo.json" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\agentinfo.json')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\agentinfo.json" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\agentinfo.json')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\agentinfo.json</TargetPath>
@@ -96,9 +96,9 @@
       <Private>True</Private>
       <Link>newrelic\agentinfo.json</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Core.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Core.dll')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Core.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Core.dll')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\extensions\NewRelic.Core.dll</TargetPath>
@@ -106,9 +106,9 @@
       <Private>True</Private>
       <Link>newrelic\extensions\NewRelic.Core.dll</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Parsing.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Parsing.dll')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Parsing.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Parsing.dll')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\extensions\NewRelic.Parsing.dll</TargetPath>
@@ -116,9 +116,9 @@
       <Private>True</Private>
       <Link>newrelic\extensions\NewRelic.Parsing.dll</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Storage.AsyncLocal.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Storage.AsyncLocal.dll')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Storage.AsyncLocal.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Storage.AsyncLocal.dll')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\extensions\NewRelic.Providers.Storage.AsyncLocal.dll</TargetPath>
@@ -126,9 +126,9 @@
       <Private>True</Private>
       <Link>newrelic\extensions\NewRelic.Providers.Storage.AsyncLocal.dll</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.AspNetCore.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.AspNetCore.Instrumentation.xml')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.AspNetCore.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.AspNetCore.Instrumentation.xml')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\extensions\NewRelic.Providers.Wrapper.AspNetCore.Instrumentation.xml</TargetPath>
@@ -136,9 +136,9 @@
       <Private>True</Private>
       <Link>newrelic\extensions\NewRelic.Providers.Wrapper.AspNetCore.Instrumentation.xml</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.AspNetCore.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.AspNetCore.dll')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.AspNetCore.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.AspNetCore.dll')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\extensions\NewRelic.Providers.Wrapper.AspNetCore.dll</TargetPath>
@@ -146,9 +146,9 @@
       <Private>True</Private>
       <Link>newrelic\extensions\NewRelic.Providers.Wrapper.AspNetCore.dll</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.HttpClient.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.HttpClient.Instrumentation.xml')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.HttpClient.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.HttpClient.Instrumentation.xml')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\extensions\NewRelic.Providers.Wrapper.HttpClient.Instrumentation.xml</TargetPath>
@@ -156,9 +156,9 @@
       <Private>True</Private>
       <Link>newrelic\extensions\NewRelic.Providers.Wrapper.HttpClient.Instrumentation.xml</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.HttpClient.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.HttpClient.dll')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.HttpClient.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.HttpClient.dll')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\extensions\NewRelic.Providers.Wrapper.HttpClient.dll</TargetPath>
@@ -166,9 +166,9 @@
       <Private>True</Private>
       <Link>newrelic\extensions\NewRelic.Providers.Wrapper.HttpClient.dll</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.Misc.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.Misc.Instrumentation.xml')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.Misc.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.Misc.Instrumentation.xml')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\extensions\NewRelic.Providers.Wrapper.Misc.Instrumentation.xml</TargetPath>
@@ -176,9 +176,9 @@
       <Private>True</Private>
       <Link>newrelic\extensions\NewRelic.Providers.Wrapper.Misc.Instrumentation.xml</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.MongoDb26.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.MongoDb26.Instrumentation.xml')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.MongoDb26.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.MongoDb26.Instrumentation.xml')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\extensions\NewRelic.Providers.Wrapper.MongoDb26.Instrumentation.xml</TargetPath>
@@ -186,9 +186,9 @@
       <Private>True</Private>
       <Link>newrelic\extensions\NewRelic.Providers.Wrapper.MongoDb26.Instrumentation.xml</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.MongoDb26.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.MongoDb26.dll')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.MongoDb26.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.MongoDb26.dll')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\extensions\NewRelic.Providers.Wrapper.MongoDb26.dll</TargetPath>
@@ -196,9 +196,9 @@
       <Private>True</Private>
       <Link>newrelic\extensions\NewRelic.Providers.Wrapper.MongoDb26.dll</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.Sql.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.Sql.Instrumentation.xml')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.Sql.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.Sql.Instrumentation.xml')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\extensions\NewRelic.Providers.Wrapper.Sql.Instrumentation.xml</TargetPath>
@@ -206,9 +206,9 @@
       <Private>True</Private>
       <Link>newrelic\extensions\NewRelic.Providers.Wrapper.Sql.Instrumentation.xml</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.Sql.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.Sql.dll')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.Sql.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.Sql.dll')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\extensions\NewRelic.Providers.Wrapper.Sql.dll</TargetPath>
@@ -216,9 +216,9 @@
       <Private>True</Private>
       <Link>newrelic\extensions\NewRelic.Providers.Wrapper.Sql.dll</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.StackExchangeRedis.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.StackExchangeRedis.Instrumentation.xml')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.StackExchangeRedis.Instrumentation.xml" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.StackExchangeRedis.Instrumentation.xml')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\extensions\NewRelic.Providers.Wrapper.StackExchangeRedis.Instrumentation.xml</TargetPath>
@@ -226,9 +226,9 @@
       <Private>True</Private>
       <Link>newrelic\extensions\NewRelic.Providers.Wrapper.StackExchangeRedis.Instrumentation.xml</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.StackExchangeRedis.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.StackExchangeRedis.dll')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.StackExchangeRedis.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\NewRelic.Providers.Wrapper.StackExchangeRedis.dll')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\extensions\NewRelic.Providers.Wrapper.StackExchangeRedis.dll</TargetPath>
@@ -236,9 +236,9 @@
       <Private>True</Private>
       <Link>newrelic\extensions\NewRelic.Providers.Wrapper.StackExchangeRedis.dll</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\extension.xsd" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\extensions\extension.xsd')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\extension.xsd" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\extensions\extension.xsd')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\extensions\extension.xsd</TargetPath>
@@ -246,9 +246,9 @@
       <Private>True</Private>
       <Link>newrelic\extensions\extension.xsd</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\grpc_csharp_ext.x64.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\grpc_csharp_ext.x64.dll')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\grpc_csharp_ext.x64.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\grpc_csharp_ext.x64.dll')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\grpc_csharp_ext.x64.dll</TargetPath>
@@ -256,9 +256,9 @@
       <Private>True</Private>
       <Link>newrelic\grpc_csharp_ext.x64.dll</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\grpc_csharp_ext.x86.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\grpc_csharp_ext.x86.dll')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\grpc_csharp_ext.x86.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\grpc_csharp_ext.x86.dll')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\grpc_csharp_ext.x86.dll</TargetPath>
@@ -266,9 +266,9 @@
       <Private>True</Private>
       <Link>newrelic\grpc_csharp_ext.x86.dll</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\libNewRelicProfiler.so" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\libNewRelicProfiler.so')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\libNewRelicProfiler.so" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\libNewRelicProfiler.so')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\libNewRelicProfiler.so</TargetPath>
@@ -276,9 +276,9 @@
       <Private>True</Private>
       <Link>newrelic\libNewRelicProfiler.so</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\libgrpc_csharp_ext.x64.so" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\libgrpc_csharp_ext.x64.so')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\libgrpc_csharp_ext.x64.so" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\libgrpc_csharp_ext.x64.so')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\libgrpc_csharp_ext.x64.so</TargetPath>
@@ -286,9 +286,9 @@
       <Private>True</Private>
       <Link>newrelic\libgrpc_csharp_ext.x64.so</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\logs\placeholder" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\logs\placeholder')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\logs\placeholder" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\logs\placeholder')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\logs\placeholder</TargetPath>
@@ -296,9 +296,9 @@
       <Private>True</Private>
       <Link>newrelic\logs\placeholder</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\newrelic.config" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\newrelic.config')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\newrelic.config" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\newrelic.config')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\newrelic.config</TargetPath>
@@ -306,9 +306,9 @@
       <Private>True</Private>
       <Link>newrelic\newrelic.config</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\newrelic.xsd" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\newrelic.xsd')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\newrelic.xsd" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\newrelic.xsd')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\newrelic.xsd</TargetPath>
@@ -316,9 +316,9 @@
       <Private>True</Private>
       <Link>newrelic\newrelic.xsd</Link>
     </None>
-    <None Include="$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\x86\NewRelic.Profiler.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.35.0\contentFiles\any\netstandard2.0\newrelic\x86\NewRelic.Profiler.dll')">
+    <None Include="$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\x86\NewRelic.Profiler.dll" Condition="Exists('$(NuGetPackageRoot)newrelic.agent\8.33.0\contentFiles\any\netstandard2.0\newrelic\x86\NewRelic.Profiler.dll')">
       <NuGetPackageId>NewRelic.Agent</NuGetPackageId>
-      <NuGetPackageVersion>8.35.0</NuGetPackageVersion>
+      <NuGetPackageVersion>8.33.0</NuGetPackageVersion>
       <NuGetItemType>None</NuGetItemType>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <TargetPath>newrelic\x86\NewRelic.Profiler.dll</TargetPath>
@@ -328,7 +328,7 @@
     </None>
   </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgNewRelic_Agent Condition=" '$(PkgNewRelic_Agent)' == '' ">C:\Users\v-nanaik\.nuget\packages\newrelic.agent\8.35.0</PkgNewRelic_Agent>
+    <PkgNewRelic_Agent Condition=" '$(PkgNewRelic_Agent)' == '' ">C:\Users\v-nanaik\.nuget\packages\newrelic.agent\8.33.0</PkgNewRelic_Agent>
     <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\v-nanaik\.nuget\packages\microsoft.codeanalysis.analyzers\2.9.4</PkgMicrosoft_CodeAnalysis_Analyzers>
   </PropertyGroup>
 </Project>

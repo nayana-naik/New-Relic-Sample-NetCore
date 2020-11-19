@@ -494,7 +494,7 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "NewRelic.Agent/8.35.0": {
+      "NewRelic.Agent/8.33.0": {
         "type": "package",
         "contentFiles": {
           "contentFiles/any/netstandard2.0/newrelic/LICENSE.txt": {
@@ -2768,10 +2768,10 @@
         "netstandard.library.nuspec"
       ]
     },
-    "NewRelic.Agent/8.35.0": {
-      "sha512": "z9DsmFwhShDh0pShpq274qSH0y0cdn8tPI/+utBKqazxE05C59UpVgQ+0569OayS9+s8n2EnuQHH8s6XDmR+dg==",
+    "NewRelic.Agent/8.33.0": {
+      "sha512": "yhijeDbu4T+Dci6Cz0o1LBmAWmy7V+IKeM6qOr/aOvvROXuRNDodSY8tBwOrB5qUQkwXWRHL292viPuj+5nXhA==",
       "type": "package",
-      "path": "newrelic.agent/8.35.0",
+      "path": "newrelic.agent/8.33.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -2943,7 +2943,7 @@
         "contentFiles/any/netstandard2.0/newrelic/newrelic.config",
         "contentFiles/any/netstandard2.0/newrelic/newrelic.xsd",
         "contentFiles/any/netstandard2.0/newrelic/x86/NewRelic.Profiler.dll",
-        "newrelic.agent.8.35.0.nupkg.sha512",
+        "newrelic.agent.8.33.0.nupkg.sha512",
         "newrelic.agent.nuspec",
         "tools/NewRelicHelper.psm1",
         "tools/install.ps1"
@@ -6439,7 +6439,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.4",
-      "NewRelic.Agent >= 8.35.0",
+      "NewRelic.Agent >= 8.33.0",
       "Newtonsoft.Json >= 12.0.3"
     ]
   },
@@ -6449,11 +6449,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\v-nanaik\\source\\repos\\NetCoreNewRelicDemo\\NewRelicDemo-NN-01\\NewRelicDemo-NN-01.csproj",
+      "projectUniqueName": "C:\\Projects_netCore\\NewRelicDemo-NN-NewRelic-8.35\\NewRelicDemo-NN-01.csproj",
       "projectName": "NewRelicDemo-NN-01",
-      "projectPath": "C:\\Users\\v-nanaik\\source\\repos\\NetCoreNewRelicDemo\\NewRelicDemo-NN-01\\NewRelicDemo-NN-01.csproj",
+      "projectPath": "C:\\Projects_netCore\\NewRelicDemo-NN-NewRelic-8.35\\NewRelicDemo-NN-01.csproj",
       "packagesPath": "C:\\Users\\v-nanaik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\v-nanaik\\source\\repos\\NetCoreNewRelicDemo\\NewRelicDemo-NN-01\\obj\\",
+      "outputPath": "C:\\Projects_netCore\\NewRelicDemo-NN-NewRelic-8.35\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\v-nanaik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6486,7 +6486,7 @@
           },
           "NewRelic.Agent": {
             "target": "Package",
-            "version": "[8.35.0, )"
+            "version": "[8.33.0, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",

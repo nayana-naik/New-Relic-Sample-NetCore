@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\v-nanaik\\source\\repos\\NetCoreNewRelicDemo\\NewRelicDemo-NN-01\\NewRelicDemo-NN-01.csproj": {}
+    "C:\\Projects_netCore\\NewRelicDemo-NN-NewRelic-8.35\\NewRelicDemo-NN-01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\v-nanaik\\source\\repos\\NetCoreNewRelicDemo\\NewRelicDemo-NN-01\\NewRelicDemo-NN-01.csproj": {
+    "C:\\Projects_netCore\\NewRelicDemo-NN-NewRelic-8.35\\NewRelicDemo-NN-01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\v-nanaik\\source\\repos\\NetCoreNewRelicDemo\\NewRelicDemo-NN-01\\NewRelicDemo-NN-01.csproj",
+        "projectUniqueName": "C:\\Projects_netCore\\NewRelicDemo-NN-NewRelic-8.35\\NewRelicDemo-NN-01.csproj",
         "projectName": "NewRelicDemo-NN-01",
-        "projectPath": "C:\\Users\\v-nanaik\\source\\repos\\NetCoreNewRelicDemo\\NewRelicDemo-NN-01\\NewRelicDemo-NN-01.csproj",
+        "projectPath": "C:\\Projects_netCore\\NewRelicDemo-NN-NewRelic-8.35\\NewRelicDemo-NN-01.csproj",
         "packagesPath": "C:\\Users\\v-nanaik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\v-nanaik\\source\\repos\\NetCoreNewRelicDemo\\NewRelicDemo-NN-01\\obj\\",
+        "outputPath": "C:\\Projects_netCore\\NewRelicDemo-NN-NewRelic-8.35\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\v-nanaik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,7 +44,7 @@
             },
             "NewRelic.Agent": {
               "target": "Package",
-              "version": "[8.35.0, )"
+              "version": "[8.33.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

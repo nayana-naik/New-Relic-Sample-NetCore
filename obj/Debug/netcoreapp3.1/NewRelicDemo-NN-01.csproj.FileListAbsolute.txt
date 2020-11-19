@@ -134,3 +134,7 @@ C:\Users\v-nanaik\source\repos\NetCoreNewRelicDemo\NewRelicDemo-NN-01\obj\Debug\
 C:\Users\v-nanaik\source\repos\NetCoreNewRelicDemo\NewRelicDemo-NN-01\obj\Debug\netcoreapp3.1\NewRelicDemo-NN-01.RazorTargetAssemblyInfo.cs
 C:\Users\v-nanaik\source\repos\NetCoreNewRelicDemo\NewRelicDemo-NN-01\obj\Debug\netcoreapp3.1\NewRelicDemo-NN-01.Views.pdb
 C:\Users\v-nanaik\source\repos\NetCoreNewRelicDemo\NewRelicDemo-NN-01\obj\Debug\netcoreapp3.1\Razor\Views\Entries\Index.cshtml.g.cs
+C:\Projects_netCore\NewRelicDemo-NN-NewRelic-8.35\bin\Debug\netcoreapp3.1\NewRelicDemo-NN-01.exe
+C:\Projects_netCore\NewRelicDemo-NN-NewRelic-8.35\bin\Debug\netcoreapp3.1\NewRelicDemo-NN-01.dll
+C:\Projects_netCore\NewRelicDemo-NN-NewRelic-8.35\bin\Debug\netcoreapp3.1\NewRelicDemo-NN-01.Views.dll
+C:\Projects_netCore\NewRelicDemo-NN-NewRelic-8.35\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

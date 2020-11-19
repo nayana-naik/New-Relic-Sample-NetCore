@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4IbbO5RNZOIFfamF3svrUhIU89S+zh/7QcyPxtzraTxa93m35jewtWEEiQLl634wI7YLo9M3L7Ag7vbp9WSOtQ==",
+  "dgSpecHash": "FHdeXgp5umi4ItuxHkbkppCI6USM80+Fdl+9syII3pFG68a3qKHwev8RNB7pO4e1AnJMU+uOC0MzwVmyqrftWw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\v-nanaik\\source\\repos\\NetCoreNewRelicDemo\\NewRelicDemo-NN-01\\NewRelicDemo-NN-01.csproj",
+  "projectFilePath": "C:\\Projects_netCore\\NewRelicDemo-NN-NewRelic-8.35\\NewRelicDemo-NN-01.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\v-nanaik\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\v-nanaik\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
@@ -28,7 +28,7 @@
     "C:\\Users\\v-nanaik\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\3.1.4\\microsoft.visualstudio.web.codegenerators.mvc.3.1.4.nupkg.sha512",
     "C:\\Users\\v-nanaik\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\v-nanaik\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
-    "C:\\Users\\v-nanaik\\.nuget\\packages\\newrelic.agent\\8.35.0\\newrelic.agent.8.35.0.nupkg.sha512",
+    "C:\\Users\\v-nanaik\\.nuget\\packages\\newrelic.agent\\8.33.0\\newrelic.agent.8.33.0.nupkg.sha512",
     "C:\\Users\\v-nanaik\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\v-nanaik\\.nuget\\packages\\nuget.frameworks\\4.7.0\\nuget.frameworks.4.7.0.nupkg.sha512",
     "C:\\Users\\v-nanaik\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
